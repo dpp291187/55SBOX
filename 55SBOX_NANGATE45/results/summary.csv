@@ -1,0 +1,5 @@
+Stage,Stage_Name,Sbox,Configuration,Method,Cells,Area_um2,Delay_ns,ADP_um2_ns,Leakage_uW,Internal_uW,Switching_uW,Total_uW
+1,Direct LUT encoding,Proposed S-box,PROPOSED_LUT,Direct 32-entry LUT encoding,39,38.304,0.31,11.87424,0.9857149999999999,1.7176,2.5378200000000004,5.24113
+1,Direct LUT encoding,FIDES S-box,FIDES_LUT,Direct 32-entry LUT encoding,35,35.91,0.309,11.096189999999998,0.904208,1.55192,2.15611,4.61223
+2,Proposed factorized realization,Proposed S-box,PROPOSED_FACTORIZED,Factorized Boolean realization used in the proposed design,31,34.314,0.251,8.612814,0.818048,1.71596,1.84876,4.38277
+2,Shared-affine area-oriented realization,Proposed S-box,PROPOSED_SHARED_AFFINE,Shared-affine realization selected from the ASIC-aware search,28,32.718,0.332,10.862376000000001,0.771474,1.75668,1.7027,4.23085

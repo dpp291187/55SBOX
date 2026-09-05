@@ -1,0 +1,5 @@
+Stage,Stage_Name,Sbox,Configuration,Top,RTL,Method
+1,Direct LUT encoding,Proposed S-box,PROPOSED_LUT,proposed_sbox_lut,rtl/proposed/proposed_sbox_lut.v,Direct 32-entry LUT encoding
+1,Direct LUT encoding,FIDES S-box,FIDES_LUT,fides_sbox_lut,rtl/fides/fides_sbox_lut.v,Direct 32-entry LUT encoding
+2,Proposed factorized realization,Proposed S-box,PROPOSED_FACTORIZED,proposed_sbox_factorized,rtl/proposed/proposed_sbox_factorized.v,Factorized Boolean realization used in the proposed design
+2,Shared-affine area-oriented realization,Proposed S-box,PROPOSED_SHARED_AFFINE,proposed_sbox_shared_affine,rtl/proposed/proposed_sbox_shared_affine.v,Shared-affine realization selected from the ASIC-aware search

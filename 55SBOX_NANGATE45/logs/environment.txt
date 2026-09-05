@@ -1,0 +1,10 @@
+Reference-run environment
+=========================
+Operating system: Linux x86_64, kernel 4.18.0
+Cadence Genus: 23.14-s090_1
+Cadence Xcelium/xrun: 24.09-s006
+Standard-cell library: NangateOpenCellLibrary_typical.lib
+Liberty-file SHA-256: 2efd0b32eb580e4e60e72fc0575bb3bc69aac907c91d908442e4ae6d7fe55895
+
+The Liberty-file path is intentionally not embedded in the archive. Set
+LIB_FILE to the local installation path before running the scripts.
